@@ -13,11 +13,11 @@ miesiace_zimowe = ['grudzien', 'styczen', 'luty']
 if miesiac in miesiace_wiosenne:
   print('Is your month hot or cold?')
   sleep(2)
-  print('It is getting wormer now!')
+  print('It is getting warmer now!')
 elif miesiac in miesiace_letnie:
   print('Is your month hot or cold?')
   sleep(2) 
-  print('It is worm already!')
+  print('It is warm already!')
 elif miesiac in miesiace_jesienne:
   print('Is your month hot or cold?')
   sleep(2)
