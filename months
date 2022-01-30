@@ -1,0 +1,30 @@
+from time import sleep
+
+miesiac = input('Enter your month : ')
+
+miesiace_wiosenne = ['marzec', 'kwiecien', 'maj']
+
+miesiace_letnie = ['czerwiec', 'lipiec', 'sierpien']
+
+miesiace_jesienne = ['wrzesien', 'pazdziernik', 'listopad']
+
+miesiace_zimowe = ['grudzien', 'styczen', 'luty']
+
+if miesiac in miesiace_wiosenne:
+  print('Is your month hot or cold?')
+  sleep(2)
+  print('It is getting wormer now!')
+elif miesiac in miesiace_letnie:
+  print('Is your month hot or cold?')
+  sleep(2) 
+  print('It is worm already!')
+elif miesiac in miesiace_jesienne:
+  print('Is your month hot or cold?')
+  sleep(2)
+  print('It is getting colder now!')
+elif miesiac in miesiace_zimowe:
+    print('Is your month hot or cold?')
+    sleep(2)
+    print('It is cold already!')
+else:
+  print('Pick a valid month or use lowercase letters')
